@@ -1,4 +1,4 @@
-package app.brickhouse.study_vault;
+package app.brickhouse.studyvault;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
