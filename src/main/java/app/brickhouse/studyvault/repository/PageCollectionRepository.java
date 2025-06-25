@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-public class PageCollectionRepository {
+public class PageCollectionRepository implements PageRepository {
 
     private final List<Page> pageList = new ArrayList<>();
 
@@ -28,6 +28,7 @@ public class PageCollectionRepository {
         pageList.add(page);
     }
 
+    @Override
     public List<Page> findAll() {
         return pageList;
     }
